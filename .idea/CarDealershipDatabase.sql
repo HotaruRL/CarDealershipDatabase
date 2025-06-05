@@ -12,13 +12,12 @@ create TABLE dealerships (
   PRIMARY KEY (dealership_id));
 
 create TABLE vehicles (
-  vehicle_id INT NOT NULL AUTO_INCREMENT,
   vin VARCHAR(17) UNIQUE,
   make VARCHAR(25),
   model VARCHAR(25),
   year INT,
   color VARCHAR(25),
-  PRIMARY KEY (vehicle_id));
+  PRIMARY KEY (vin));
 
 create TABLE inventory (
   inventory_id INT NOT NULL AUTO_INCREMENT,
