@@ -1,0 +1,3 @@
+SELECT *
+FROM vehicles
+WHERE vin = "JTDKARCD2P5206712"
